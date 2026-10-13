@@ -1,0 +1,39 @@
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Yerel editör ayarları
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ortam değişkenleri ve yerel sırlar
+.env
+.env.*
+!.env.example
+!.env.*.example
+/secrets/
+
+# Günlükler
+*.log
+
+# Yaygın bağımlılık, önbellek ve üretilen çıktılar
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/dist/
+/build/
+/coverage/
+.next/
+.nuxt/
+
+# Teknoloji seçildiğinde daraltın/genişletin.
+# Kilit dosyaları ve kaynak yapılandırmaları bilerek dışlanmaz.
